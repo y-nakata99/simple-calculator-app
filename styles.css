@@ -83,7 +83,7 @@ button:focus-visible {
 }
 
 .clear {
-  grid-column: span 4;
+  grid-column: span 3;
   background: #f1b64b;
 }
 

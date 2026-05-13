@@ -5,6 +5,7 @@ const operators = {
   add: (left, right) => left + right,
   subtract: (left, right) => left - right,
   multiply: (left, right) => left * right,
+  power: (left, right) => left ** right,
   divide: (left, right) => {
     if (right === 0) {
       throw new Error('Cannot divide by zero');
